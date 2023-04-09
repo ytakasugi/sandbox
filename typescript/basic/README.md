@@ -15,6 +15,7 @@
 ---
 
 - [とほほのTypeScript入門](https://www.tohoho-web.com/ex/typescript.html)
+- [TypeScriptで学ぶJavaScript入門](https://atmarkit.itmedia.co.jp/ait/series/1504/)
 - [【Q&A】TypeScript / var let const　の違い　使い分け](https://qiita.com/findy-code/items/23cf2495d571723bf610)
 - [TypeScript Guide](https://github.com/future-architect/typescript-guide)
 - [TypeScript Deep Dive](https://typescript-jp.gitbook.io/deep-dive/)
