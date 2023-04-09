@@ -27,7 +27,9 @@ echo "****************************************************/"
 
 tsc ${FILE_NAME}
 
+## 終了時間
 END_TIME=`date "+%s"`
+## 処理時間
 ELAPSED_TIME=$((END_TIME - START_TIME))
 MM=$((ELAPSED_TIME / 60))
 SS=$((ELAPSED_TIME % 60))
