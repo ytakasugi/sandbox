@@ -1,8 +1,5 @@
-function intro(person) {
-    return "My name is ".concat(person.name, ". I am ").concat(person.age);
+function hello(name) {
+    console.log("Hello " + name + "!");
 }
-var p = {
-    name: "Alice",
-    age: 15
-};
-console.log(intro(p));
+var your_name = "Yamada";
+hello(your_name);

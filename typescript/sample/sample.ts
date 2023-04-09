@@ -1,15 +1,7 @@
-interface Person {
-    name: string;
-    age: number;
+function hello(name: string): void {
+    console.log("Hello " + name + "!");
 }
 
-function intro(person: Person): String {
-    return `My name is ${person.name}. I am ${person.age}`
-}
+let your_name: string = "Yamada";
 
-let p: Person = {
-    name: "Alice",
-    age: 15
-}
-
-console.log(intro(p))
+hello(your_name);
