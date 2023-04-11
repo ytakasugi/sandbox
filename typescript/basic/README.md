@@ -9,7 +9,7 @@
 - [React Hooks と TypeScript で簡単 TODO アプリ](https://zenn.dev/sprout2000/articles/60cc8f1aa08b4b)
 - [ReactによるTodoアプリ開発でWebアプリケーションの仕組みを理解しよう](https://zenn.dev/sakura_kira/books/c8c1348b6f560e)
 - [Vue.js Composition APIでTODOアプリ作成](https://azukiazusa.dev/blog/vue-js-composition-api-todo-app/)
-- [Lets start TypeScript ~Vue3 + Express で TypeScript 入門してみよう~](https://zenn.dev/is_ryo/books/10ef5a30196e16110bc1)
+- [Lets start TypeScript Vue3 + Express で TypeScript 入門してみよう](https://zenn.dev/is_ryo/books/10ef5a30196e16110bc1)
 
 ---
 
