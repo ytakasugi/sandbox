@@ -1,3 +1,18 @@
+<script>
+export default {
+  data() {
+    return {
+      message: 'Hello World'
+    }
+  }
+}
+</script>
+
 <template>
-  <h1>Hello World!</h1>
+  <head>
+    <title>Welcom to Vue</title>
+  </head>
+  <body>
+    <h1>{{ message }}</h1>
+  </body>
 </template>

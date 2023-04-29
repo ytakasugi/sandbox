@@ -31,3 +31,7 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Other
+
+- [10分で基礎がわかるVue.js-入門](https://qiita.com/moyegogo1020/items/7cf9daaacc6bac1b3c33)
