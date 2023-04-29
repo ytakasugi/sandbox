@@ -2,6 +2,11 @@
 
 ## awkコマンド
 
+- Sites
+  - [awkの魅力を伝える: 「合計・平均・階差などを取得」](https://zenn.dev/nutmeg/articles/awk_charm_02)
+  - [awkで列の合計を求める](https://orebibou.com/ja/home/201606/20160613_001/)
+  - [第3回 同じ行がいくつあるかカウントする(awk+sort+uniq)](https://www.soum.co.jp/misc/awk/3/)
+
 - csv
 
 ```csv
