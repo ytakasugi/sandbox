@@ -45,6 +45,6 @@ $ cat sample.csv | awk -F, '{print $3}' | sort | uniq -c | sort -n
 $ cat sample.csv | awk -F, '{a[$3]+=$7} END{for(k in a) print k, a[k];}' | sort
 バス 4140
 電車 14808
-p$ cat sample.csv | awk -F, '{sum+=$7} END{print sum}'
+$ cat sample.csv | awk -F, '{sum+=$7} END{print sum}'
 18948
 ```
