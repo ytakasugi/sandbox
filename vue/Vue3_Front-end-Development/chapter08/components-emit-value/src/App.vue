@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import {ref, computed} from "vue";
 import OneMember from "./components/OneMember.vue";
+
 //会員リストデータを用意。
 const memberListInit = new Map<number, Member>();
 memberListInit.set(33456, {id: 33456, name: "田中太郎", email: "bow@example.com", points: 35, note: "初回入会特典あり。"});
@@ -16,13 +17,11 @@ const totalPoints = computed(
 		return total;
 	}
 );
-// Emitにより実行されるメソッド
+// Emitにより実行されるメソッド(1)
 const onIncrementPoint = (id: number): void => {
-  // 処理関数のidに該当する会員情報オブジェクトを取得
+  // (2)
   const member = memberList.value.get(id);
-  // 会員情報オブジェクトが存在するなら・・・
   if (member != undefined) {
-    // ポイントをインクリメント
     member.points++
   }
 }
@@ -41,6 +40,7 @@ interface Member {
 	<section>
 		<h1>会員リスト</h1>
 		<p>全会員の保有ポイントの合計: {{totalPoints}}</p>
+		<!-- (3) -->
 		<OneMember
 			v-for="[id, member] in memberList"
 			v-bind:key="id"
