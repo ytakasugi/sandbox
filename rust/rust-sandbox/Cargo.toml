@@ -9,6 +9,7 @@ edition = "2021"
 base64 = "0.20.0"
 hex-literal = "0.4.1"
 pbkdf2 = { version = "0.12", features = ["simple"] }
+rand = "0.8.5"
 rand_core = { version = "0.6", features = ["std"] }
 ring = "0.16.20"
 sha2 = "0.10.7"
