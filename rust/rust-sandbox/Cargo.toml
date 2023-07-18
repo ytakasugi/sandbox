@@ -6,6 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+argon2 = "0.5.1"
 base64 = "0.20.0"
 hex-literal = "0.4.1"
 pbkdf2 = { version = "0.12", features = ["simple"] }
