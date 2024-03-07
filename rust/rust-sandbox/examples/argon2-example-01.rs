@@ -9,7 +9,8 @@ use argon2::{
 fn main() -> Result<(), password_hash::Error> {
     let password = "hunter42".as_bytes(); // Bad password; don't actually use!
     let salt = SaltString::generate(&mut OsRng);
-
+    println!("{}", salt);
+    
     // Argon2 with default params (Argon2id v19)
     let argon2 = Argon2::new(
         Algorithm::Argon2id,
